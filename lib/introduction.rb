@@ -8,6 +8,11 @@ puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 introduction_with_language("Will", "Ruby")
 
+def introduction_with_language_optional(name, language = "Ruby")
+ uts "Hi, my name is #{name} and I am learning to program in #{language}."
+ end
+ introduction_with_language_optional("Will")
+
 
 
 
